@@ -43,7 +43,7 @@ gradlePlugin {
         id = pluginId
         implementationClass = "uoxx3.project.environment.PluginEntry"
         version = project.version as String
-        tags.set(listOf("java", "gradle", "environment", "env"))
+        tags.set(listOf("java", "environment", "env"))
     }
 }
 
