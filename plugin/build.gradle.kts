@@ -9,12 +9,11 @@
 plugins {
     // Apply the Java Gradle plugin development plugin to add support for developing Gradle plugins
     `java-gradle-plugin`
-    id("org.javamodularity.moduleplugin") version "1.8.12"
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
 group = "io.github.uoxx3"
-version = "1.0.0"
+version = "1.0.1"
 
 val pluginName: String get() = "project-environment"
 val pluginId: String get() = "$group.$pluginName"
